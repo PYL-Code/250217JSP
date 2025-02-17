@@ -8,10 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	out.print("HELLO<br>");
-	out.println(LocalDate.now()+"<br>");
-	out.println(LocalTime.now()+"<br>");
-%>
+<%=LocalDate.now() %><br>
+<%=LocalTime.now() %>
 </body>
 </html>
